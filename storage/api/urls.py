@@ -8,3 +8,6 @@ urlpatterns = [
     path('location/', LocationList.as_view()),
     path('location/<int:pk>/', LocationDetail.as_view()),
 ]
+
+
+

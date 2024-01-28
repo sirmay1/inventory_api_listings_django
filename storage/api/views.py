@@ -1,3 +1,4 @@
+from django.shortcuts import render
 from rest_framework import generics
 from .models import Item, Location
 from .serializers import ItemSerializer, LocationSerializer
